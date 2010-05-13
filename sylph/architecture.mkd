@@ -1,0 +1,20 @@
+Architecture
+============
+
+For a number of years I've been working on the designs for a portable, semantic data platform to exchange a wide variety of information--blog posts, social information, ratings, commentary, etc. I got way off track, but my desire to build a distributed exchange platform remains. 
+
+I do care what people are doing, but only to a point. Yes I'd like to know if my classmates are hosting a group research session, or if a _close_ friend is wanting to see a movie. We can solve this problem, but it is a **big** problem. It's best if we design an architecture that allows teams of us to work independantly on each sub-problem or component.
+
+Basics
+------
+
+1. **Uniquely reference information** &mdash; be it stories, posts, comments, people, staus updates. RDF has a great mechanism for doing this (using URIs as keys), albeit perhaps overkill in having every triple with its unique URI.  
+	* Use these references (keys) as a means to query nodes in the network for info.
+2. **Nodes are where information is stored, annotated, etc.** Keep information in nodes that can communicate with each other. 
+	* Databases are utilized by nodes to store information. The exact storage system should be decoupled from the node semantics. 
+3. **There are different kinds of nodes with different interactions.**
+	1. **Resource Caches** are high-throughput data stores that prevent overloading individual nodes. 
+	2. **Groups** are servers set up to exchange a particular type of data and to help its members collaborate and exchange data better. Why network strictly peer to peer when we can take advantage of caching and forwarding utilities?
+		* Algorithms for data mining / interest mining
+
+

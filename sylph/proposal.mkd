@@ -1,0 +1,91 @@
+Decentralized Informatics
+=========================
+
+Information on the web today is not uniformly accessible--it's scattered amongst disperate resources such as blogs and wikis or locked away inside of vertical platforms and data silos. Finding the information we need is often an intractable problem: 
+
+* Sometimes we don't know anything about the information we seek, only general qualities. 
+* Often information exists that we don't know we need. This is especially troublesome. 
+
+
+
+
+
+
+
+**When we produce data, we do not have fine-grained control over how to share or organize our information.** ...
+
+Though
+
+
+We do not have machinery in place to capture this information for our own use; we are forced to use what we are provided or hack together crudish tools. We are still living in the information stone age. 
+
+Supports Learning
+
+When my interest in using computer science to explore biology topics began, I diwas. I wasn't even aware of Example: I'm trying to become a systems biologist. I don't know  
+
+
+
+
+
+I'm less concerned with the software than I am the libraries and the platform itself. Other people can take our idea farther.
+
+Architecture for communications
+Architecture for information organization, publishing, and etc.
+
+
+We haven't yet realized any "Information networks".
+
+Add on a social system for this. It doesn't aim to be facebook. We don't care that your family, co-workers, or highschool classmates can network with you. This social system is to make it easy to consume and categorize news and information. Make it easier to learn what we don't know. 
+
+Research
+========
+
+For the past two years I've been working on the designs for a portable, semantic data platform to exchange a wide variety of information--blog posts, social information, ratings, commentary, etc. I got way off track, but desire to build a distributed research platform remains. 
+
+A group of NYU students has embarked on a summerlong project of building a distributed social network. I think this is the wrong goal to pursue--most end users will not "get" the advantage of ...
+
+The escense of this platform
+============================
+
+* Distributed protocol
+
+* First generation semantics
+
+* Data minining
+
+Beyond "distributed social networking"
+======================================
+
+A platform of not just "user" nodes, but one that includes special nodes that serve as caching mechanisms, interest group clusters.
+
+Interest group clusters will aggregate news and comments from amongst member nodes, allowing a faster mechanism of sharing and ability to obtain high-quality data mining results. 
+
+The system will borrow key concepts from RDF. Resources are uniquely identified by URIs. When a resource is shared, it is globally and uniquely identified. Even if the original resource becomes unavailable, other nodes can be searched against the URI. A PGP signing scheme can serve to protect integrity of data in the distributed setting. 
+
+For researchers especially, maintaining a bibliography is very important. 
+
+For developers, we can maintain distributed wiki resources for, say, API documentations. The latest docs can be pulled from a distributed resource, annotated, and shared. 
+
+
+* Similar, but more granular than PubSubHubbub
+
+
+Diaspora
+========
+
+"Privacy aware, personally controlled, do-it-all distributed open source social network"
+
+* Interacts with Facebook, Flickr, etc. 
+* PGP
+* "Seed" server interacts with others, like nodes in a graph
+* "easily extendable plugin framework for Diaspora, so that whenever newfangled content gets invented, it will be automagically integrated into every seed."
+
+OneSocialWeb.com
+================
+* XMPP activity stream
+
+
+Let's do this!
+==============
+
+If you like the sound of this project, I'd like to hear from you. Whether you'd be able to work with me on this full time, part time, or just provide ideas and support, please get in touch. I have only about a week to decide upon my research objectives for the summer, and though this will be my primary choice, I don't think I can embark upon it if I don't get enough interest. 

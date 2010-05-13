@@ -1,0 +1,8 @@
+
+My problem was **over-enginnering**: I needed to design the platform, the 
+network aspects, data ontologies, a triplestore (then a quad store), and worst
+of all a new kind of graphical interface. Then I imagined a semantic-MVC layer 
+that would allow people to work with individual interactions within the graph,
+and on and on... it got absurd. 
+
+TODO...
