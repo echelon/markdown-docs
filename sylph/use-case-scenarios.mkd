@@ -1,0 +1,105 @@
+
+**These are things we build _on top of Sylph_.** This is not an exhaustive list of what we can build, but it gives a general idea. Most of these cases are concerned with time-saving methodologies and/or focus on increasing the signal-to-noise ratio. Many of these require additional careful planning, but are definitely possible through the Sylph platform.
+
+Combat Information Overload
+---------------------------
+
+Maybe not everyone has the information overload problem. I certainly do. I for one read Slashdot and Reddit for the comments as much as the links. I really need a tool to cut down on irrelevant material, but without copious metadata there's no way to do this. 
+
+
+Organize information internet-wide
+-----------------------------------
+
+Discounting blog spam, a given news item may only reach a subset of its intended audience due to the fact that each web community involves only a subset of the human population. I should be able to subscribe to "linux news with respect to X", not a million different news sites, blogs, and mailing lists (Slashdot, LKML, LWN, etc.). 
+
+By the same principal, wouldn't it be great my posts and comments became visible to my more-relevant peer group regardless of where I initially posted my comments? 
+
+This isn't quite "Semantic", but it's driven in the hope we can get there eventually. We can use tagging and data mining to get us through the first hurdles.  
+
+Personal data mining
+--------------------
+
+**To learn what we (and our peers) like and filter information better**
+
+ It takes precious time to filter through and consume the information we want. 
+What if our machines filtered through information feeds, picking out only choice information? With carefully-mined preference data from ourselves and our peers, we could avoid wasting time on boring news or irrelevant comments. This isn't uniformly possible with existing standalone websites or platforms... we need an architecture to support this natively.
+
+**To support personal growth**
+
+To learn more about what we know, connecting us to people who may need our help. To learn what we don't know <small>(especially the things we don't know we don't know)</small> and guide us to our destination / learning objectives. 
+
+Connect people doing the same thing
+-----------------------------------
+
+As this information becomes tagged or picked up by communities of algorithmically-grouped or associated users, the information percolates into relevant areas. If the nature of the coverage changes from technical to general/popular, it will also make the jump.  
+
+How long did it take news of, say, Diaspora to reach around the internet? It did indeed snowball, but it had to leap across disjoint platforms and websites. A distributed system would have a smooth integration of this data. Additionally, it would be presently impossible to collect the feedback of everyone around the web to diaspora. The current platform doesn't support that. A new one could allow that, and more&mdash;querying a specific cross-section of the feedback, for, say praise, criticism, developer feedback, or how Lawrence Lessig responds. 
+
+
+Adapting the level of coverage/technicality to a user's care/expertise
+----------------------------------------------------------------------
+
+Let's say a new development occurs in your field or dicipline: imagine a platform that could capture the responses and feelings of your peers around the entire internet. <small>(Which by itself is too much data!)</small> Now imagine a tool that could preferentially sort this commentary based on expertise, informativeness, relevance criteria, or the rankings given by your carefully (or algorithmically) chosen peer group and distill it down to the 10 or so most relevant.
+
+Personal anecdote: 
+> I'm not a kernel hacker&mdash;I don't have the time or wherewithal to read LKML or LWN, so Slashdot summaries have to suffice. In this case I don't want to read too much in detail unless I'm absolutely compelled.
+
+> However, the flip side of that coin is that the biotech coverage on Slashdot gets in my way as it's never technical enough. (Sometimes they even post popular science summaries of old news!) In the event Slashdot does get wind of some new breakthrough, I'm usually forced to search for better coverage. (And then sometimes I find out that the claims have been exaggerated...)
+
+A visibility toggle for banter
+------------------------------
+
+Toggle on or off each of these independantly:
+
+* Pure humor or witicisms (they're funny, but quickly detract)
+* Lengthy posts (sometimes summaries are best)
+* Drawn out arguments (the intellectual kind)
+* Flaming (the not-so-intellectual kind)
+
+Often all of these things can be enjoyable, but sometimes they get in the way. A slashdot-style meta-moderation system for everything lets us filter these. And of course we'll only get good meta-moderation data since we can selectively (or algorithmically) ignore bad users.
+
+Identify spam or quackery
+-------------------------
+
+Untrained people sometimes claim expertise in a field they know very little about. Their comments can be misleadingor even harmful. We'll be able to tag and respond to these as an internet community. Everyone who wants can see these corrections. (Perhaps by default!) 
+
+
+This might offend some website owners...
+----------------------------------------
+
+We'll begin by co-opting ALL content (news, blogs, galleries, etc.) from the web by blatantly scraping it. If someone likes a particular website, blog, feed, etc. they can submit a custom scraping tool to the community repository. (The data only has to enter the distributed stream once, though&mdash;then it's there for keeps.) We can make use of this abundant data to test building our filtering, annotation, recommendation, and consumption tools and find out what works best. 
+
+<small>(Also, ads kind of won't exist anymore. Kind of _can't_ exist anymore.)</small>
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------
+
+
+
+
+I want a post to go from my node to your node. I want your reply to come back to my node regardless of where you posted it. I want to rip all content off websites, blogs, etc. and form a full mirror of my daily usage on this system. These sites can have _a copy_ of my responses, but that information will also make its way into the distributed informatics system. Likewise, we will take copies of all original work on the web and mirror it and share it distributively. I don't care if this may seem disturbing to traditional media&mdash;that's how I want to consume my data. 
+
+
+Oh, and I shouldn't forget to mention that there **won't be any more ads** for information consumed within sylph. 
+
+Additional ways this helps
+--------------------------
+This work is a small step in helping to expand our efforts in many areas that are in need of improvement:
+
+* For me, a big hope is that this may help **connect researchers and get them around the atrocities of academic publishing**. Like a cancer researcher wants to pay $100 to read your paper that may or may not be genuinely novel. Yeah, right. 
+
+* **Privacy from corporations and governments**. Honestly average people won't care, but maybe this will become a new tool in the hands of people living under oppressive governments. This is one of my primary concerns in the development of this platform. 
+
+* **Fostering a web with less distraction (_hopefully_)** is another very personal goal of mine. The internet started as a research tool and has lately become filled with spam and distraction. I don't mind how it has evolved, but there needs to be a switch that turns up the signal-to-noise ratio. Way up. 
+
+---

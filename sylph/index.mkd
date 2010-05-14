@@ -1,69 +1,57 @@
 &ldquo;Sylph&rdquo; &mdash; distributed social-semantic informatics for a higher-order web
 ===============================
 
-**Abstract**
+**Abstract** 
 
-I'm writing and publishing this <small>(rather informal)</small> public proposal on my own research work because [four NYU undergrads want to build a "distributed social network"](http://www.nytimes.com/2010/05/12/nyregion/12about.html?partner=rss&emc=rss). While I like their "just do it" approach, I believe that there's a bigger, more important problem to solve. A problem I've spent nearly four years characterizing. In the past I tried to fix this _distributed informatics_ problem using the Semantic Web and found out I then had two problems. I have fallen prey to the over-engineering plague, but lesson learned&mdash;always build one to throw away. That said, [I have a lot at stake in this](./why-i-care), and I don't want to lose momentum for my research to these four. 
+I'm writing and publishing this <small>(rather informal)</small> public proposal on my own research work because [four NYU undergrads want to build a "distributed social network"](http://www.nytimes.com/2010/05/12/nyregion/12about.html?partner=rss&emc=rss). While I like their "just do it" approach, I believe that there's a bigger, more important underlying problem to solve. It's something I've spent nearly four years characterizing. In the past I tried to fix this _distributed informatics_ problem using the Semantic Web and found out I then had two problems. I have fallen prey to the over-engineering plague, but lesson learned&mdash;never work alone, and always build one to throw away. That said, [I have a lot at stake in this](./why-i-care), and I don't want to lose momentum for my research. 
 
-College is expensive, but I don't want your money. _I want your help._ I'm starting a MIT/BSD-licensed Python project on github this summer and I would like any willing and able hackers to help me build an advanced distributed informatics platform such as I'm about to describe. If you'd prefer to work in Ruby, PHP, whatever&mdash;sure. Let's work in parallel on the same problem so that it has a rock-solid API with many implementations and libraries available. I would like to provide direction for the project, but I'm not going to make all the calls. This is a platform for all of us.
+College is expensive, but let me assure you that I don't want your money to fund my ambition. I want something much more from you: _your help._ I'm starting a MIT/BSD-licensed Python project on github this summer and I would like any willing and able hackers to help me build an advanced distributed informatics platform such as I'm about to describe. If you'd prefer to work in Ruby, PHP, whatever&mdash;sure. Let's work in parallel on the same problem so we can create a rock-solid API with many implementations and libraries available. I would like to provide direction for the project, but I'm not going to make all of the calls. This is a platform for all of us.
 
-My architecture and scope is rather a bit different from the NYU gang of 
-four, and this requires some explanation. 
+My architecture, scope, and intent is rather a bit different from the NYU gang of 
+four, and this requires some explanation.
 
 An additional order of complexity
 ---------------------------------
 
-The web today isn't very complex. Yes, there's search, APIs, feeds, frameworks, robots, walled gardens, video, and even newfangled presentational elements just around the corner. I won't explain any of those or comment on whether they are good or bad, but clearly this is a very one-layered (or n-layered, for small values of n) approach. 
+The web today isn't very complex. Yes, there's search, APIs, feeds, frameworks, robots, walled gardens, video, and even newfangled presentational elements. I won't explain any of those or comment on whether they are good or bad, but clearly this is a very one-layered (or n-layered, for small values of n) approach. 
 
-It's too bad. Most primitive technologies are actually rather flat or one-dimensional. When you think about advanced complexities you may think of OS kernels, the genome, and the brain: here are layers upon layers of automation, connection, and indirection all carefully orchestrating something grander, more emergent.
+Most primitive technologies are actually rather flat or one-dimensional. Complexity (when meticuously engineered) is an almost universal hallmark of a higher stage in evolution. When you think about advanced complexities you may think of OS kernels, the genome, and the brain: here are layers upon layers of automation, connection, and indirection all carefully orchestrating something grander, more emergent.
 
-**Data itself needs an API and platform to go with it.** When we consume data, anywhere and in any form, we need to be able to save it, share it, annotate it, comment on it&mdash;all in a distributed manner. Social bookmarking, news, and photo sites are great, but today there is no universal methodology. Our information is still put into data silos and linked together with hackish, disjoint APIs. A new web platform could let us take what we've learned about data and informatics to the next level. 
+**Information itself needs an API and platform to go with it.** When we consume data, anywhere and in any form, we need to be able to save it, share it, annotate it, comment on it&mdash;all in a distributed manner. Social bookmarking, news, and photo sites are great, but today there is no universal _information methodology_. We do not have machinery in place to capture data for advanced uses; it's still put into data silos and linked together with hackish, disjoint APIs. 
 
-_Think about what Diaspora is trying to do for Facebook, but imagine that applied to all websites and information._ That is the crux of my research: a truly distributed global informatics system. 
+_Think about what Diaspora is trying to do for Facebook, **but imagine that applied to all websites and information**._ That is the crux of my research: a truly distributed global informatics system encompassing the creation, exchange, and consumption of data without need of websites&mdash;a world without walls.
 
-And what does that in turn hope to give us? The capability to build a personalized dynamic data community that adapts to who you are&mdash;that incorporates the people and things important to your daily life and personal growth. It gives us the ability to publish and consume anywhere, anyhow and have your voice heard. (Before you bring it up, I've given much thought to spam.) 
+And what does such a platform in turn hope to give us? The capability to build a personalized dynamic data community that adapts to who you are. An information gateway that incorporates the people and things important to your daily life and personal growth. The ability to publish and consume anywhere, anyhow and have your voice heard. The highest signal-to-noise ratio ever. Read these [illustrative examples](./use-case-scenarios).
 
-There are thousands uses and things we can build with this kind of technology, but I've prepared [a few illustrative examples](./scenarios).
+By the way, if it wasn't obvious, at present I call my platform **_&lsquo;sylph&rsquo;_**. This is the working title I have used throughout my research (I didn't want to make up an acronym or initialism). I'm open to new suggestions if you think the name sucks.
 
->>> TODO explain more of how this interweaves with the web
-(And yes, I've thought about spam. For years. This system may be able to eliminate it through trust/karma.)
+Again, if I did a poor job communicating the potential in this, please read the examples linked above. 
 
-
-
-Architecture Basics
--------------------
-You'll be able to read a more in-depth writeup on the architecture soon. I'll post it when I get home and sort through my various notes and documentation. But for now, consider these key elements:
+Sylph Architecture: just the basics
+-----------------------------------
+You'll be able to read a more in-depth writeup on the architecture soon. I'll post it as soon as I get home and sort through my various notes and documentation. But for now, consider these key elements:
 
 * **Data are uniquely-keyed _resources_**. I took this idea from RDF/Semantic Web research and ran with it. If we assign a blog post, photo, comment, profile,&mdash;what have you&mdash;, a unique URI, we can identify these elements and talk about them throughout the system regardless of where, when, and how they are created.
 
-* **Multiple types of nodes serve as _machine endpoints for communication_.** They are independant of storage backend and user access frontend. The frontend and backend can and will vary and evolve independantly. 
+* **Multiple types of nodes serve as _machine endpoints for communication_.** User nodes are independant of storage backend technology and the frontend for user access. (The frontend and backend can and will vary and evolve independantly.) There are also cache nodes, aggregation nodes, proxies... more on that later.
 
-I've compiled a document that [goes a bit more in depth](./architecture) in regards to the architecture, but we'll have to assign short-term and long-term objectives. I have far-reaching goals for this technology including many items that are not feasible within the year.  
+* **Identity is to be fully supported, but an Anonymity option is _required_**. Anyone who thinks anonymity on the internet is a bad idea harms our freedom and free speech, regardless of whether or not they are aware of the implications of their opinion. This platform will have to support both identity and anonymity in the production and consumption of data. 
 
-Again: I don't want to solve distributed social networking as it's currently defined.
--------------------------------------------------------------------------------------
+* **An API for data, much like DOM is for markup**. This enables us to work with the global graph of data and nodes. It can be placed into Javascript to enable existing websites to bootstrap this technology, but moreover will be used for building the tools we will use. 
 
-Actually, I don't want to build _anything_ for people who want to spend hours poking each other or playing "Farmville". I want us as a society to cure cancer, reverse aging, and develop alternative sources for energy. To that end I see value in developing a tool that empowers scientists, engineers, and hackers to better collaborate. Those still on Facebook don't care about privacy issues&mdash;I say just let them be. If this technology catches on, I'm sure they'll find a use for it. 
+I've compiled a document that [goes a bit more in depth](./architecture) in regards to the architecture, but we'll have to assign short-term and long-term objectives. I have far-reaching goals for this technology including many items that are not yet feasible.  
 
-There is a real need for a platform that enables better, faster learning. Distributed sharing, cataloging, commenting, annotation, and curation of data and data communities. _This does involve social networking to a point_, but that isn't the primary focus. Find and message your peers, but don't poke them or turn them into zombies. Don't clutter my info feed.
+This isn't Diaspora or any similar project
+------------------------------------------
+As I've stated, I don't want to solve distributed social networking as it's currently defined. Actually, I don't want to build _anything_ for people who want to spend hours poking each other or playing "Farmville". I want us as a society to cure cancer, reverse aging, and develop alternative sources for energy. To that end I see value in developing a tool that empowers scientists, engineers, and hackers to better collaborate. Those still on Facebook don't care about privacy issues&mdash;I say just let them be. If this technology catches on, I'm sure they'll find a use for it. 
 
-Remember, the web is all about the _production and consumption of information_. We're going to extend the platform to better accomplish this, and this time around it will finally enable us to be fully in charge of our data. <acronym title="Tim Berners-Lee">TBL</acronym> has always been aware of this fact and that's why he worked so long on the Semantic Web. It hasn't quite worked out yet because the momentum has been on the side of centralization and verticals. Maybe our web will eventually evolve to be semantic, I don't know. I do think our needs through this platform will be in line with the objectives of the Semantic Web however. In a year or two maybe we can integrate their research into our platform.   
+There is a real need for a platform that can enable better, faster learning. Something that natively supports distributed sharing, cataloging, commenting, annotation, and the curation of data and fostering of data communities. _This does involve social networking to a point_, but that isn't the primary focus. Find and message your peers, but don't poke them or turn them into zombies. Don't clutter my info feed. 
 
-This is 2010. In December our web will turn twenty years old. Let's take the summer to work together and build the APIs and storage endpoints necessary to take the first steps into a new evolutionary branch.
+Remember, the web is all about the _production and consumption of information_. We're going to extend the platform to better accomplish this, and this time around it will finally enable us to be fully in charge of our data. <acronym title="Tim Berners-Lee">TBL</acronym> has always been aware of this fact and that's why he worked so long on the Semantic Web. It hasn't quite worked out yet because the momentum has been on the side of centralization and vertical platforms. Maybe our web will eventually evolve to be Semantic with a capital 'S'. I don't know, but I'm hopeful.
+
+This is 2010. In December our web will turn twenty years old. Let's take the summer to work together and build the APIs and storage endpoints necessary to take the a few more evolutionary steps into the future.
  
-If you have time and aren't working on any personal projects, please, please email me: **echelon at gmail dot com**. My name is Brandon, and I look forward to meeting you and working together to solve this. 
-
-By the way, if it wasn't obvious, I call my platform **_&lsquo;sylph&rsquo;_**. This is the working title I have used throughout my research (I didn't want to make up an acronym or initialism), but I'm open to suggestions if you think the name sucks.
-
-
----
-
-.. 
-Let's talk about your data consumation habits. 
-
-Oh, and I shouldn't forget to mention that there **won't be any more ads** for information consumed within sylph. 
-
-The internet is for information. Communication is still information.
+If you have time and aren't already working on anything, please, please email me: **echelon at gmail dot com**. My name is Brandon, and I look forward to meeting you and working together to solve this. If you want to help, [here's more on how you can contact me and get involved](./please-help).
 
 ---
 
@@ -72,6 +60,6 @@ Pages, all previously linked:
 * [Sylph Process and Architecture basics](./architecture)
 * [Why I care about this so much](./why-i-care) 
 * [Where I went wrong in my research / lessons learned](./lessons-learned)
-* [_I need your help!!_](./recruit-help)
-* [The future of this system](./future)
+* [_I need your help!!_](./please-help)
+* [Potential future for Sylph](./future)
 
