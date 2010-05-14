@@ -1,18 +1,27 @@
-Why I Care
-==========
-I put many years of work into imagining a new kind of &ldquo;informatics 
+Who am I and why do I care?
+===========================
+I'm an currently undergrad cs/bio major with a deep interest in biological computation. After grad school I want to go into computational systems biology, proteomics, or something along those lines. I want to work amongst other researchers in order to fight disease, aging, and ultimately work on running our brains _in silico_.
+
+Distributed Informatics
+-----------------------
+I put many years of study into imagining a new kind of &ldquo;informatics 
 layer&rdquo; for the internet. Even though this isn't the field I'm primarily 
 aspiring to, this is a project of great personal importance that I have a lot 
 invested in.
 
-I was planning on using my work to _get into a good grad school._ As someone who 
-wants to computationally search for solutions to diseases, this is very critical 
-for my future.
+During the course of my research last year, I unexpectedly lost a really dear friend of mine. I was working on this very project the last time I saw him. Even though I know I won't let him down by not putting my research into action, I want to make him proud. He believed in me where others have doubted my capability. 
 
-During the course of my research last year, I unexpectedly lost a really dear 
-friend. I was working on this project the last time I saw him. I know I won't 
-let him down by not putting my research into action, but I want to make him 
-proud. 
+This is also something personal that would allow me leave my footprint on this world. I want to make an impact, and I want it to be for something good and lasting. As a biologist I know that everything evolves and changes&mdash;I want my thinking to be part of this slow and subtle process of metamorphosis. I want to stand on the shoulders of giants like those before me.
+
+How this helps
+--------------
+This work is a small step in helping to expand our efforts in many areas that are in need of improvement:
+
+* For me, a big hope is that this may help **connect researchers and get them around the atrocities of academic publishing**. Like a cancer researcher wants to pay $100 to read your paper that may or may not be genuinely novel. Yeah, right. 
+
+* **Privacy from corporations and governments**. Honestly average people won't care, but maybe this will become a new tool in the hands of people living under oppressive governments. This is one of my primary concerns in the development of this platform. 
+
+* **Fostering a web with less distraction (_hopefully_)** is another very personal goal of mine. The internet started as a research tool and has lately become filled with spam and distraction. I don't mind how it has evolved, but there needs to be a switch that turns up the signal-to-noise ratio. Way up. 
 
 ---
 

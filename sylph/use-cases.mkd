@@ -1,0 +1,22 @@
+
+
+It takes precious time to filter through and consume the information we want.
+----------------------
+
+What if our machines filtered through information feeds, picking out only choice information? With carefully-mined preference data from ourselves and our peers, we could avoid wasting time on boring news or irrelevant comments. (Note: you can't do this with verticals, data silos, standalone blogs... you need an architecture to support this.)
+
+Personal anecdote: 
+> I'm not a kernel hacker&mdash;I don't have the time or wherewithal to read 
+> LKML or LWN, so Slashdot has to suffice. However, biotech coverage on 
+> Slashdot gets in my way as it's never technical enough. I like hearing about new 
+> breakthroughs, but I'm forced to search for better coverage. Or angered that 
+> there's been yet another popular news summary of old news. If I post a comment anywhere,
+> wouldn't it be great if that became visible in a more-relevant peer group?
+
+Let's say a new development occurs in your field or dicipline: imagine a platform that could capture the responses and feelings of your peers around the entire internet. (That's too much data!) Now imagine a tool that could preferentially sort this commentary based on expertise, informativeness, relevance criteria, or the rankings given by your carefully (or algorithmically) chosen peer group and distill it down to 10 or so comments with a visibility toggle for ignoring distracting witicisms and lengthy, flaming arguments. (Somtimes I have time to enjoy those, but that's not often.)
+ 
+> Or worse, that 
+> untrained people claim expertise in a field they know very little about.
+
+I want a post to go from my node to your node. I want your reply to come back to my node regardless of where you posted it. I want to rip all content off websites, blogs, etc. and form a full mirror of my daily usage on this system. These sites can have _a copy_ of my responses, but that information will also make its way into the distributed informatics system. Likewise, we will take copies of all original work on the web and mirror it and share it distributively. I don't care if this may seem disturbing to traditional media&mdash;that's how I want to consume my data. 
+

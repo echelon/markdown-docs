@@ -1,7 +1,0 @@
-Architecture
-============
-Blah blah blah
-
-Blah blah blah...
-
-Test

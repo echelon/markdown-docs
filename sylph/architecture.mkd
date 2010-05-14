@@ -1,3 +1,20 @@
+Architecture Basics
+-------------------
+You'll be able to read a more in-depth writeup on the architecture soon. I'll post it when I get home and sort through my various notes and documentation. But for now, consider these key elements:
+
+* **Data are uniquely-keyed _resources_**. I took this idea from RDF/Semantic Web research and ran with it. If we assign a blog post, photo, comment, profile,&mdash;what have you&mdash;, a unique URI, we can identify these elements and talk about them throughout the system regardless of where, when, and how they are created.
+
+	* This information allows us to look up caches of a resource, find previous revisions of a resource, or even find all of the available comments on the resource. 
+
+	* Resource URIs can be dereferenceable, but they don't have to be. URIs are easy to make and work with. 
+
+* **Multiple types of nodes serve as _machine endpoints for communication_.** They are independant of storage backend and user access frontend. The frontend and backend can and will vary and evolve independantly. 
+
+	1. _End-user nodes._ These store information for the user, host information for others to query, and intercept incoming info. Right now the mechanics must be simple, but they can evolve quickly to handle more advanced situations as we find need. There may be perhaps more than one user node per user if we develop a replication system. 
+
+
+
+
 Architecture
 ============
 
