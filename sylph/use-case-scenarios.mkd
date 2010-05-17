@@ -1,3 +1,5 @@
+THIS DOCUMENT IS IN BAD SHAPE
+=============================
 
 **These are things we build _on top of Sylph_.** This is not an exhaustive list of what we can build, but it gives a general idea. Most of these cases are concerned with time-saving methodologies and/or focus on increasing the signal-to-noise ratio. Many of these require additional careful planning, but are definitely possible through the Sylph platform.
 

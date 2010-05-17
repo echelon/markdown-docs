@@ -1,0 +1,27 @@
+Please Join the Sylph project!
+==============================
+
+I'm currently making an attempt to recruit developers at my university to work with me, but I'm absolutely open to developers from anywhere in the world. (I have previously worked with developers from the UK, the Netherlands, and the US on two of my previous endevours.)
+
+We need anyone who can help, but our project needs are especially well categorized as:
+
+* **Developers who can work in Python**. (especially undergrads who want to do research!) I chose python because it's the scripting language I know best. Overall, the platform is Python/Django and possibly Celery for asynchronous background jobs. We'll integrate other libraries as we find need. 
+
+* **Developers who want to work in a parallel implementation in Ruby, PHP, etc.** PHP is especially important since most shared hosting providers have support for PHP. Once we have a referencce implementation in a few languages, we really should work on an _overall API (akin to DOM) that we can build for each platform_.
+
+* **Computer science researchers, especially grad students.** I want to ground this platform more firmly in theory, so I'll be seeking distributed and peer-to-peer researchers, semantic web researchers, etc. If you feel like you have something to add, please let me know! I want to write publications on Sylph when we're done with the first iteration.
+
+* **Web and Graphics Designers.** I'd like the prototype system to look nice when it's close to being finished. Perhaps we could also be provided with visual mockups and pretty graphics for the documentation. And a shiny logo!
+
+* **Documentation writers and public relations / technical communications specialists.** I'm not the best at writing, as you can tell. I could use a ton of help on this front and feel my efforts could best be deployed working on the code.
+
+Email me at **echelon at gmail dot com**. I'll have other contact methods available soon. Possibly even a freenode channel.  
+
+Website and code repositor[y/ies]
+---------------------------------
+
+We'll be hosting the Python code at [github](http://github.com) in a public repository. Other groups for other implementations are willing to join us. I'm trying to get into contact with the owner of the [Sylph user account](http://github.com/sylph) to see if he or she would be willing in turning that over to our project. If not, we'll find another account name to work under. 
+
+If in the end we choose to use the name _sylph_, I'd like to raise money to buy [**sylph.com**](http://sylph.com) and/or [**sylph.org**](http://sylph.org) to base the project at. (We should contact the owners to see how much they would sell for.) That's probably the extent of any money we have to raise. 
+
+
