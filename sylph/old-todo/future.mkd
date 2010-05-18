@@ -1,16 +1,18 @@
+_<span style="color:#f00">THIS DOCUMENT IS NOWHERE NEAR COMPLETE. JUST NOTES.</span>_
+
 Future prospects for this technology
 ====================================
 
 * **Achieving parts of the Semantic Web** - The dream of intelligent agents (prolog for OWL?) interacting with the distributed _global graph_ is a bit far off, but we can get closer to it.
 
-* **Personal data mining.** (Yikes, Microsoft patented that!)
+* **Personal data mining.** 
 
 * **Heuristical dispatch of applications** - Based on what we're doing in the data graph, applications may be suggested to utilize the data or extend our search. These suggestions are semantic, that is they correlate with the data. They can also be based on historical preference, again another use of personal data mining. 
 
  It should be noted that this enables teams of people to work on select disjoint problems, allowing a very rapid expansion in our capability.
 
 
-* .
+* ...
 
 What we should do now
 ---------------------

@@ -1,3 +1,5 @@
+_<span style="color:#f00">THIS DOCUMENT IS NOWHERE NEAR COMPLETE. JUST NOTES.</span>_
+
 Architecture Basics
 -------------------
 You'll be able to read a more in-depth writeup on the architecture soon. I'll post it when I get home and sort through my various notes and documentation. But for now, consider these key elements:

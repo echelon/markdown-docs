@@ -1,6 +1,6 @@
 Who am I and why do I care?
 ===========================
-I'm an currently undergrad cs/bio major with a deep interest in biological computation. After grad school I want to go into computational systems biology, proteomics, or something along those lines. I want to work amongst other researchers in order to fight disease, aging, and ultimately work on running our brains _in silico_. <small>(Though that last point is likely too hard a problem to finish within our lifetimes.)</small>
+I'm an currently undergrad cs/bio major with a deep interest in biological computation. After grad school I want to go into computational systems biology, proteomics, or something along those lines. I want to work amongst other researchers in order to fight disease, aging, and ultimately work on running our brains _in silico_. <small>(Though that last point is likely too hard a problem to finish within one lifetime.)</small>
 
 Why &lsquo;Distributed Informatics&rsquo;?
 ------------------------------------------
@@ -10,9 +10,9 @@ During the course of my research last year, I unexpectedly lost a really dear fr
 
 This is also something personal that would allow me leave my footprint on this world. I want to make an impact, and I want it to be for something good and lasting. As a biologist I know that everything evolves and changes&mdash;I want my thinking to be part of this slow and subtle process of metamorphosis. I want to stand on the shoulders of giants like those before me.
 
-_And then there's grad school_. Right now I'm an undergrad at [Southern Polytechnic State University](http://spsu.edu). It's a really great institution that I absolutely adore, and it has enabled me to comfortably seek two degrees at once. That said, I don't see much of a possibility of getting into one of the great grad schools (MIT, Standford, GA Tech, CMU...) unless I have some absolutely stellar research work on my application. I need strong grounds to stand on, and the NYU gang of four are, unbeknownst to them, trying to take part of the platform out from under me. <small>(Granted, they now have me motivated to finish quickly.)</small> Acceptance into one of the big engineering institutions is quite important with respect to the learning and interdiciplinary research I want to accomplish in my life and will help further my ultimate research objectives that I have already set out for myself. 
+_And then there's grad school_. I don't see much of a possibility of getting into one of the great engineering grad schools (MIT, Standford, GA Tech, CMU...) unless I have some absolutely stellar research work under my belt. Acceptance into one of these is quite important with respect to the learning and interdiciplinary research I want to accomplish. 
 
-Would you be interested in [helping me with this endevour](../please-join)? We all stand to benefit. 
+If you're interested in helping me with my endevour of researching and building Sylph, [please let me know](../please-join). 
 
 ---
 
